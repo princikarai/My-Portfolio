@@ -618,7 +618,7 @@ a{
 
   .user-image{
     padding:2.5rem;
-    filter: saturate(1);
+    filter: saturate(0.5);
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
   }
@@ -632,7 +632,7 @@ width: 345px;
   @keyframes scaleImage {
 
     0%{
-        filter: saturate(1);
+        filter: saturate(0.5);
         transform:scale(1);
         
     }
@@ -645,7 +645,7 @@ width: 345px;
 
     100%{
         transform:scale(1);
-        filter: saturate(1);
+        filter: saturate(0.5);
     }
     
   }
