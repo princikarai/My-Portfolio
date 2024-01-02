@@ -618,7 +618,7 @@ a{
 
   .user-image{
     padding:2.5rem;
-    
+    filter: saturate(1);
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
   }
